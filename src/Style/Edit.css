@@ -1,0 +1,41 @@
+.edit{
+    width: 100%;
+    height: 100vh;
+    padding-left: 20px;
+   
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+}
+.e-form{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+}
+#create{
+    width:100px;
+    height: 30px !important;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: skyblue;
+    cursor: pointer;
+}
+#cancel{
+    width: 100px;
+    height: 30px !important;
+    text-align: center;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}

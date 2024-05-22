@@ -1,0 +1,50 @@
+article{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 10%;
+}
+#update{
+    width: 220px;
+    height: 30px !important;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: skyblue;
+    cursor: pointer;
+}
+#back{
+    width: 70px;
+    height: 20px;
+    text-align: center;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: skyblue;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#delete{
+    width: 210px;
+    height: 30px !important;
+    text-align: center;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+table{
+    width: 50%;
+    border-collapse: collapse;
+}
+img{
+    border-radius: 50%;
+}
